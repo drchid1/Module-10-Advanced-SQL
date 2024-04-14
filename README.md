@@ -8,4 +8,10 @@ Part 2 involves designing a climate app, which is an API built using Flask. The 
 
 ## Marking Scheme Deviation
 
-In the precipitation analysis, the requirement was to use the dataframe ```plot `` function. Extensive formatting was required to replicate a similar-looking bar chart, as shown in the requirement section. Hence, a decision was made to use Matplitlib ```plt `` rather than the Pandas ```plot `` function. However, for the histogram, the Pandas ```plot `` function was used. 
+In the precipitation analysis, the requirement was to use the dataframe ```plot `` function. Extensive formatting was required to replicate a similar-looking bar chart, as shown in the requirement section. Hence, a decision was made to use Matplitlib ```plt `` rather than the Pandas ```plot `` function. The bar chart created using Matplotlib is shown below. 
+
+![Bar Chart using Matplotlib](output/prcp_12month_all_stations.png)
+
+However, the Pandas ``plot `` function was used for the histogram which shows the temperature for the most active station. 
+
+![Histogram using Pandas plot](output/hist_temp_most_active_station.png)
